@@ -1,0 +1,70 @@
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/Mebg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#home-text{
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size: 30px;
+}
+#home-text h1{
+    font-size: 60px;
+}
+#home-text span{
+    color: #ff004f;
+}
+#home-text{
+    animation: slideUp 1.5s ease-in-out;
+}
+@keyframes slideUp{
+    from{
+      transform:translateY(30px);
+      opacity: 0;
+    }
+    to{
+      transform:translateY(0);
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #home {
+        height: 80vh;
+        background-size: contain;
+    }
+    #home-text {
+        font-size: 24px;
+    }
+    #home-text h1 {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #home {
+        height: 70vh;
+        background-size: contain;
+    }
+    #home-text {
+        font-size: 20px;
+        width: 90%;
+    }
+    #home-text h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #home {
+        height: 60vh;
+        background-size: contain;
+    }
+    #home-text {
+        font-size: 15px;
+        width: 90%;
+    }
+    #home-text h1 {
+        font-size: 32px;
+    }
+}

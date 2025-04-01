@@ -1,0 +1,110 @@
+*{
+    color: gainsboro;
+}
+#skills{
+    margin-bottom: 160px;
+    font-size: 25px;
+}
+#skills h1,p{
+    color: gainsboro;
+    justify-content: center;
+    text-align: center;
+}
+#skills h1{
+    text-decoration: underline gainsboro;
+}
+#python{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#pimg{
+    display: flex;
+    height: 30px;
+    width: 40px;
+    margin-right: 25px;
+}
+#pl p{
+    margin: 0px;
+    padding-top: 5px;
+}
+#pl{
+    display: flex;
+    text-align: center;
+}
+#java{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#jimg{
+    display: flex;
+    height: 30px;
+    width: 40px;
+    margin-right: 30px;
+}
+#jl p{
+    margin: 0px;
+    padding-top: 5px;
+}
+#jl{
+    display: flex;
+    text-align: center;
+}
+#html{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#himg{
+    display: flex;
+    height: 30px;
+    width: 38px;
+    margin-right: 20px;
+}
+#hl p{
+    margin: 0px;
+    padding-top: 5px;
+}
+#hl{
+    display: flex;
+    text-align: center;
+}
+#css{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#cimg{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin-right: 30px;
+}
+#cl p{
+    margin: 0px;
+    padding-top: 5px;
+}
+#cl{
+    display: flex;
+    text-align: center;
+}
+#javascript{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#jsimg{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+#jsl p{
+    margin: 0px;
+    padding-top: 5px;
+}
+#jsl{
+    display: flex;
+    text-align: center;
+}
